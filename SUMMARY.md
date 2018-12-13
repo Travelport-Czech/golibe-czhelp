@@ -14,7 +14,8 @@
 * [Servisní poplatky](zakladni-nastaveni/untitled.md)
 * [Úprava designu](zakladni-nastaveni/uprava-designu.md)
 * [Pracovní doba](zakladni-nastaveni/pracovni-doba.md)
-* [E-mailové notifikace](zakladni-nastaveni/e-mailove-notifikace.md)
+* [E-mailové notifikace](zakladni-nastaveni/e-mailove-notifikace/README.md)
+  * [Notifikace TravelFusion \(LowCost\)](zakladni-nastaveni/e-mailove-notifikace/notifikace-travelfusion-lowcost.md)
 
 ## Pokročilá nastavení
 
