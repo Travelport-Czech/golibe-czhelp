@@ -19,13 +19,13 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 | **Validační dopravce** | Dopravce na kterého je vystavena letenka |
 | **Místo odletu & Cíl cesty** |  |
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
 | **Obousměrné** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-RG |
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -43,14 +43,14 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 ![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/commission8.png)
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
 | **Knihovací třída \(RBD\)** | Knihovací třídy, které smí být v rezervaci, aby pravidlo platilo. |
 |  |  |
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -68,7 +68,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 |  | Nepovoleni vyjmenovaní - v itineráři nesmí být zastoupen žádný z vyjmenovaných dopravců. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 |  | Musí obsahovat všechny vyjmenované - v itineráři musí být zastoupeni **všichni** uvedení operující dopravci. Itinerář nesmí _\*\*_navíc obsahovat ještě nějakého dalšího. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -86,7 +86,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 ## 3. Zvolte období platnosti
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 | Pole | Popis |
 | :--- | :--- |

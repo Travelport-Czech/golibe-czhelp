@@ -2,7 +2,7 @@
 
 V menu **Agentura -&gt; Nastavení agentury** je možné upravit základní nastavení, ovlivňující fungování vašeho GOL IBE.
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -14,7 +14,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Nastavení ovlivňující chování letenek
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -43,7 +43,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Queues - notifikace v GDS Galileo letenkářům
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -51,7 +51,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 | **PNR Queue number** | Queue v rámci výše nastaveného PCC, na které budou zasílány vytvořené rezervace. |
 | **PNR Queue category** | Kategorie queue, pokud tyto agentura využívá pro třídění zpráv. |
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -61,7 +61,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Nastavení sekundární komunikace s GDS Galileo
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 Nastavení je obdobné jako pro Primární HAP. Sekundární HAP je využíván, pokud máte více PCC s rozdílným nastavením a z nějakého důvodu potřebujete vyhledávat na dvou PCC najednou a sloučit výsledky. Pro správné fungování je potřeba ještě nastavit v sekci **Paralelní dotazování**.
 
