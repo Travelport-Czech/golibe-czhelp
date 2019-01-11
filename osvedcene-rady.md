@@ -19,7 +19,7 @@ Zkontrolujte si, že je vyhledávací formulář vložen celý a je správně vi
 Níže se můžete podívat na statistiku, jak jsou využívány prohlížeče. Statistika se může lišit podle země a měnit se časem. Rozhodně ale neuděláte chybu, pokud se zaměříte na 5 nejvýznamnějších prohlížečů a vyzkoušíte, zda a jak v nich zobrazíte své stránky včetně vyhledávače letenek. Pokud budete chtít přesné měření, jaké prohlížeče konkrétně Vaši zákazníci používají, nasaďte si na web nějaké měření jako například [Google Analytics](https://marketingplatform.google.com/about/analytics/). Vaši webdesignéři Vám s tím určitě pomohou a Vám to přinese možnost vážit přesněji ekonomický přínos vynaložených nákladů za přizpůsobení stránek všem prohlížečům vs. návštěvnost.  
 
 
-![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F;: Zdroj: https://www.w3counter.com/globalstats.php / August 2018](.gitbook/assets/image%20%2829%29.png)
+![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F;: Zdroj: https://www.w3counter.com/globalstats.php / August 2018](.gitbook/assets/image%20%2830%29.png)
 
 * **Zobrazují se vaše stránky správně všem uživatelům?**
 

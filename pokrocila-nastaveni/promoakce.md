@@ -22,28 +22,35 @@ Vedle klasických tlačítek - **SMAŽ/EDIT/DETAIL** \(detail zobrazuje všechny
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem206.png)
 
-### Editace/Přidání nové promoakce
+### Editace/Přidání nové Promoakce
 
 Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné položky jsou označeny tučně\):
 
 ## 1. Základní nastavení Promoakce
 
-![](https://bo.golibe.com/help/cz/lib/NewItem218.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Agentura** | Výběr agentury, které bude promoakce zobrazována. |
-| **Cena letenky** | Cena letenky a tax. Výše ceny letenky + tax je navíc porovnávána s oceněním v GDS a pokud by cena v GDS byla vracena vyšší o více jak 10%, bude takovéto spojení označno jako nedostupné. |
-| **Servisní poplatek** | Výše servisního poplatku. Promoakce má vlastní servisní poplatek, který může být stejný nebo rozdílný od poplatku při běžném vyhledávání. |
-| **Celková zobrazovaná cena** | Celková cena vzniklá součtem částek Cena letenky a Servisní poplatek. Tato cena je zobrazována na FE koncovým zákazníkům. |
-| **Skutečná konc. cena z FS min** | Minimální cena tarifu a tax, vrácená při dotazování na kombinace letů. |
-| **Skutečná konc. cena z FS max** | Maximální cena tarifu a tax, vrácená při dotazování na kombinace letů. |
 | **Zobrazovat na webu od-do** | Časový interval, ve kterém bude Promoakce zobrazována zákazníkům na webu. |
 | **Cesta tam možná od - do** | Časový interval, kdy je možná cesta tam. |
 | **Cesta zpět možná od - do** | Časový interval, kdy je možná cesta zpět. |
-| **Zařazena do množiny** | Pole pro vložení množiny, do které promoakce patří. Například Evropa, Asie, Promoakce s cenou do 5000 apod. Dle těchto množin lze Promoakce zobrazovat na FE. |
+| **Zařazena do množiny** | Pole pro vložení množiny, do které Promoakce patří. Například Evropa, Asie, Promoakce s cenou do 5000 apod. Dle těchto množin lze Promoakce zobrazovat na webu. |
 
-## 2. Statistika promoakce
+## 2. Nastavení ceny a poplatků
+
+![](../.gitbook/assets/image%20%2834%29.png)
+
+| Pole | Popis |
+| :--- | :--- |
+| **Použít ručně zadané fee** | Pokud není zaškrtnuto, servisní poplatek je kalkulován dle běžného nastavení servisních poplatků letenek. |
+| **Cena letenky** | Cena letenky a tax. Výše ceny letenky + tax je navíc porovnávána s oceněním v GDS a pokud by cena v GDS byla vracena vyšší o více jak 10%, bude takovéto spojení označeno jako nedostupné. |
+| **Servisní poplatek** | Výše servisního poplatku při zaškrtnutí - Použít ručně zadané fee. Promoakce může mít vlastní poplatek, který může být stejný, nebo rozdílný od poplatku při běžném vyhledávání. |
+| **INF - % ze základního poplatku** | Nastavení poplatku pro kojence, který je zadáván jako procentuální sleva z ceny pro dospělého. |
+| **Zaokrouhlení na řády** | Rozsah zaokrouhlení |
+| **Celková zobrazovaná cena** | Celková cena vzniklá součtem částek Cena letenky a Servisní poplatek. Tato cena je zobrazována na webu koncovým zákazníkům. |
+
+## 3. Statistika promoakce
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem260.png)
 
@@ -59,7 +66,7 @@ Technické poznámky:
 Informace o dostupnosti je občerstvována na základě používání Promoakcí klienty. Pokud klient narazí na nedostupnou kombinaci, není již dalším zákazníkům nabízena. Současně dochází k občerstvování informací o dostupnosti v pravidelných intervalech, minimálně však 1x za 24hodin v nočních hodinách.
 {% endhint %}
 
-## 3. Stav Promoakce
+## 4. Stav Promoakce
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem261.png)
 
@@ -73,7 +80,7 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
 | **Nalezeny lety** | Zobrazení ANO/NE, zda byly u Promoakce nalezeny v rezervačním systému dostupné lety. |
 | **Sedí cena** | Zobrazení ANO/NE, zda byla vyhledána cena v požadovaném rozsahu. |
 
-## 4. Obecná omezení Promoakce
+## 5. Obecná omezení Promoakce
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem212.png)
 
@@ -103,7 +110,7 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
       <td style="text-align:left">Pole pro vložení MAX/MIN dní do odletu.</td>
     </tr>
   </tbody>
-</table>## 5. Směr cesty tam a zpět
+</table>## 6. Směr cesty tam a zpět
 
 Každá část cesty musí být nadefinována. Pro jednoduchá nepřestupní spojení, např. VIE-CDG, je nutné v sekci "Cesta tam" definovat spojení dle obrázku níže. Pokud je spojení přestupní, např. VIE-FRA-CDG, je nutné nejdříve nadefinovat spojení VIE-FRA a klikem na tlačítko "Přidat další segment letu pro stejný směr" přidat pole, do kterého vyplníte druhý úsek cesty FRA-CDG.
 
