@@ -28,7 +28,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 1. Základní nastavení Promoakce
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -39,7 +39,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 2. Nastavení ceny a poplatků
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 | Pole | Popis |
 | :--- | :--- |

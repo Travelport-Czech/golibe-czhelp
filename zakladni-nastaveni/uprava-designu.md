@@ -4,7 +4,7 @@
 
 V menu **Dealeři** vyberte dealera \(web\), který máte zájem upravovat. Klikněte na příslušném řádku na **DETAIL** a v otevřené stránce klikněte na:
 
-![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/NastaveniFE.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 Zde si můžete měnit barevná nastavení, nahrávat vlastní tlačítka apod.
 
