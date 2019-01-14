@@ -12,20 +12,20 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 ## 1. Zvolte parametry provize
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
 | **Validační dopravce** | Dopravce na kterého je vystavena letenka |
 | **Místo odletu & Cíl cesty** |  |
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
 | **Obousměrné** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-RG |
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -34,7 +34,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 |  | Typ destinace - světadíl a jiné ustálené množiny destinací |
 |  | Stát |
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -43,14 +43,14 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 ![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/commission8.png)
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
 | **Knihovací třída \(RBD\)** | Knihovací třídy, které smí být v rezervaci, aby pravidlo platilo. |
 |  |  |
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -59,7 +59,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 |  | Pouze validační dopravce - pravidlo se uplatní jen v případě, že je v itineráři zastoupen pouze validační dopravce. |
 |  | Pouze jiní, než je validační dopravce - pravidlo se uplatní jen v případě, že v itineráři není zastoupen validační dopravce. |
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -68,7 +68,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 |  | Nepovoleni vyjmenovaní - v itineráři nesmí být zastoupen žádný z vyjmenovaných dopravců. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 |  | Musí obsahovat všechny vyjmenované - v itineráři musí být zastoupeni **všichni** uvedení operující dopravci. Itinerář nesmí _\*\*_navíc obsahovat ještě nějakého dalšího. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -76,7 +76,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 ## 2. Zvolte typ cesty
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -86,7 +86,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 ## 3. Zvolte období platnosti
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -101,7 +101,7 @@ Ověřit, jak vám budou provize napočítány na konkrétní rezervaci, můžet
 
 V případě, že chcete nastavené provize použít i pro vaše další systémy a vkládat tak provize i do ne-GOL IBE rezervací, je třeba nastavení exportovat klikem na tlačítko:
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 Popis programátorského napojení [najdete zde](https://misecz.gitbooks.io/commission-microservice/content/).
 
