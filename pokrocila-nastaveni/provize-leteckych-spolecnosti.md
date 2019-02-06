@@ -1,8 +1,8 @@
 # Provize leteckých společností
 
-Letecké společností sice čím dál méně, avšak stále poskytují cestovním agenturám provize z prodeje letenek. Provize můžete snadno nastavit a ty pak budou automaticky vkládány do rezervací.
+Letecké společnosti sice čím dál méně, avšak stále poskytují cestovním agenturám provize z prodeje letenek. Provize můžete snadno nastavit, a ty pak budou automaticky vkládány do rezervací.
 
-V zázemí přejděte do menu **Ceny -&gt; Provize leteckých společností**
+V zázemí přejděte do menu **Ceny -&gt; Provize leteckých společností**.
 
 Na stránce uvidíte přehled již nastavených servisních poplatků, které můžete smazat klikem na **SMAŽ**, nebo upravit klikem na **EDIT**.
 
@@ -16,14 +16,14 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 | Pole | Popis |
 | :--- | :--- |
-| **Validační dopravce** | Dopravce na kterého je vystavena letenka |
+| **Validační dopravce** | Dopravce, na kterého je vystavena letenka. |
 | **Místo odletu & Cíl cesty** |  |
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Obousměrné** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-RG |
+| **Obousměrné** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-PRG. |
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
@@ -39,7 +39,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 | **Pole** | Popis |
 | :--- | :--- |
 | **Typ provize** | Fixní částka - pevná částka provize v měně agentury |
-|  | Procenta - % částka provize vypočítávaná z výše tarifu |
+|  | Procenta - procentuální částka provize vypočítávaná z výše tarifu |
 
 ![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/commission8.png)
 
@@ -72,7 +72,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Priorita** | Priority se uplatní, pokud je nastaveno více různých provizí na konkrétní leteckou společnosti. GOL pak postupuje následujícím způsobem: 1. Vybere všechna pravidla pro validačního dopravce z rezervace, 2. Seřadí pravidla dle nastavené "Priority", 3. Vezme pravidlo s nejvyšší prioritou \(vyšší číslo = vyšší priorita\) a zkontroluje, že vyhovuje rezervaci. Pokud ano, tak zapíše příslušnou provizi do rezervace. Pokud ne, pokračuje dalším pravidlem dle priority. |
+| **Priorita** | Priority se uplatní, pokud je nastaveno více různých provizí na konkrétní leteckou společnosti. GOL IBE pak postupuje následujícím způsobem: 1. Vybere všechna pravidla pro validačního dopravce z rezervace, 2. Seřadí pravidla dle nastavené "Priority", 3. Vezme pravidlo s nejvyšší prioritou \(vyšší číslo = vyšší priorita\) a zkontroluje, že vyhovuje rezervaci. Pokud ano, tak zapíše příslušnou provizi do rezervace. Pokud ne, pokračuje dalším pravidlem dle priority. |
 
 ## 2. Zvolte typ cesty
 
@@ -90,16 +90,16 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 | Pole | Popis |
 | :--- | :--- |
-| Provizi lze uplatnit od-do | Nastavení v jakém období je pravidlo pro provizi aktivní. |
+| Provizi lze uplatnit od-do | Nastavení, v jakém období je pravidlo pro provizi aktivní. |
 | Cesta tam \(zpět\) možná od-do | Nastavení povoleného rozsahu dat, ve kterých je uskutečněná cesta. |
 
 ## Jak pravidla otestovat?
 
-Ověřit, jak vám budou provize napočítány na konkrétní rezervaci, můžete ověřit přes [tuto stránku](https://cm.golibe.com/). Autorizační Token vám na požádání poskytneme.
+Přes [tuto stránku](https://cm.golibe.com/) můžete ověřit, jak Vám budou provize napočítány na konkrétní rezervaci. Autorizační token Vám na požádání poskytneme.
 
 ## Využití pro aplikace třetích stran
 
-V případě, že chcete nastavené provize použít i pro vaše další systémy a vkládat tak provize i do ne-GOL IBE rezervací, je třeba nastavení exportovat klikem na tlačítko:
+V případě, že chcete nastavené provize použít i pro své další systémy, a vkládat tak provize i do ne-GOL IBE rezervací, je třeba nastavení exportovat klikem na tlačítko:
 
 ![](../.gitbook/assets/image%20%285%29.png)
 

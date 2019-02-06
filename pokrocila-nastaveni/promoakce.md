@@ -18,7 +18,7 @@ Administrovat Promoakce je možné v zázemí v sekci **Ceny &gt; Promoakce - le
 Vedle klasických tlačítek - **SMAŽ/EDIT/DETAIL** \(detail zobrazuje všechny informace stejně jako edit, jen needitovatelné\), jsou zde ještě funkce:
 
 * Kopírování promoakcí – tlačítko **KOPIE**. KOPIE otevře editaci nové Promoakce, se všemi položkami stejnými jako u původní.
-* Tlačítko **SPUSTIT CACHE**, které spustí robota pro načtení informací o letech z rezervačního systému. Aby mohla být Promoakce zobrazována na FE, je třeba mít zaškrtnut check-box: „Zobrazovat“ v detailu Promoakce.
+* Tlačítko **SPUSTIT CACHE**, které spustí robota pro načtení informací o letech z rezervačního systému. Aby mohla být promoakce zobrazována na FE, je třeba mít zaškrtnut check-box: „Zobrazovat“ v detailu Promoakce.
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem206.png)
 
@@ -26,7 +26,7 @@ Vedle klasických tlačítek - **SMAŽ/EDIT/DETAIL** \(detail zobrazuje všechny
 
 Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné položky jsou označeny tučně\):
 
-## 1. Základní nastavení Promoakce
+## 1. Základní nastavení promoakce
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
@@ -44,10 +44,10 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 | Pole | Popis |
 | :--- | :--- |
 | **Použít ručně zadané fee** | Pokud není zaškrtnuto, servisní poplatek je kalkulován dle běžného nastavení servisních poplatků letenek. |
-| **Cena letenky** | Cena letenky a tax. Výše ceny letenky + tax je navíc porovnávána s oceněním v GDS a pokud by cena v GDS byla vracena vyšší o více jak 10%, bude takovéto spojení označeno jako nedostupné. |
+| **Cena letenky** | Cena letenky a tax. Výše ceny letenky + tax je navíc porovnávána s oceněním v GDS a pokud by cena v GDS byla vracena vyšší o více jak 10 %, bude takovéto spojení označeno jako nedostupné. |
 | **Servisní poplatek** | Výše servisního poplatku při zaškrtnutí - Použít ručně zadané fee. Promoakce může mít vlastní poplatek, který může být stejný, nebo rozdílný od poplatku při běžném vyhledávání. |
 | **INF - % ze základního poplatku** | Nastavení poplatku pro kojence, který je zadáván jako procentuální sleva z ceny pro dospělého. |
-| **Zaokrouhlení na řády** | Rozsah zaokrouhlení |
+| **Zaokrouhlení na řády** | Rozsah zaokrouhlení. |
 | **Celková zobrazovaná cena** | Celková cena vzniklá součtem částek Cena letenky a Servisní poplatek. Tato cena je zobrazována na webu koncovým zákazníkům. |
 
 ## 3. Statistika promoakce
@@ -57,30 +57,30 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 | Pole | Popis |
 | :--- | :--- |
 | **Poslední měření cache** | Čas, za který proběhlo poslední načtení informací o letech. |
-| **Počet dotazů na availabilitu** | Počet availabilitních dotazů položených při poslední aktualizaci pro tuto Promoakci. |
-| **Aktuální ocenění z Galilea** | Zobrazení výsledků kontrolního ocenění. Ocenění se provádí bez ohledu na dostupnost. Pokusů je učiněno max. 5 s tím, že jsou prováděny na kombinaci dní na začátku platnosti Promoakce a následně o týden později, přes víkend apod. aby bylo dosaženo vysoké pravděpodobnosti úspěšného ocenění. |
+| **Počet dotazů na availabilitu** | Počet availabilitních dotazů položených při poslední aktualizaci pro tuto promoakci. |
+| **Aktuální ocenění z Galilea** | Zobrazení výsledků kontrolního ocenění. Ocenění se provádí bez ohledu na dostupnost. Pokusů je učiněno max. 5 s tím, že jsou prováděny na kombinaci dní na začátku platnosti promoakce a následně o týden později, přes víkend apod., aby bylo dosaženo vysoké pravděpodobnosti úspěšného ocenění. |
 
 Technické poznámky:
 
 {% hint style="info" %}
-Informace o dostupnosti je občerstvována na základě používání Promoakcí klienty. Pokud klient narazí na nedostupnou kombinaci, není již dalším zákazníkům nabízena. Současně dochází k občerstvování informací o dostupnosti v pravidelných intervalech, minimálně však 1x za 24hodin v nočních hodinách.
+Informace o dostupnosti je občerstvována na základě používání promoakcí klienty. Pokud klient narazí na nedostupnou kombinaci, není již dalším zákazníkům nabízena. Současně dochází k občerstvování informací o dostupnosti v pravidelných intervalech, minimálně však 1x za 24 hodin v nočních hodinách.
 {% endhint %}
 
-## 4. Stav Promoakce
+## 4. Stav promoakce
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem261.png)
 
 | Pole | Popis |
 | :--- | :--- |
 | **Ověřovat robotem** | Pokud je zaškrtnuto, data jsou automaticky občerstvována v pravidelných intervalech. |
-| **Zobrazovat** | Pokud je zaškrtnuto, je Promoakce zobrazována klientům na FE. |
-| **Zneaktivnit při chybné ceně** | Promoakce podstupuje kontrolní ocenění \(stav je možné vidět v tabulce Statistika Promoakce\). Pokud je rozdíl ceny pod hranicí +/-10%, je cena korigována. Pokud by byl rozdíl ceny nad touto hranicí, například chybou nastavení promoakce, pak při aktivované volbě bude Promoakce deaktivována ze zobrazení na webu. |
-| **Automatická promoakce** | Zobrazení ANO/NE, zda byla Promoakce založena automaticky. |
-| **Nacachováno** | Zobrazení ANO/NE, zda byla Promoakce nacachována \(načteny informace z rezervačního systému\). |
-| **Nalezeny lety** | Zobrazení ANO/NE, zda byly u Promoakce nalezeny v rezervačním systému dostupné lety. |
+| **Zobrazovat** | Pokud je zaškrtnuto, je promoakce zobrazována klientům na FE. |
+| **Zneaktivnit při chybné ceně** | Promoakce podstupuje kontrolní ocenění \(stav je možné vidět v tabulce Statistika promoakce\). Pokud je rozdíl ceny pod hranicí +/-10 %, je cena korigována. Pokud by byl rozdíl ceny nad touto hranicí, například chybou nastavení promoakce, pak při aktivované volbě bude Promoakce deaktivována ze zobrazení na webu. |
+| **Automatická promoakce** | Zobrazení ANO/NE, zda byla promoakce založena automaticky. |
+| **Nacachováno** | Zobrazení ANO/NE, zda byla promoakce nacachována \(načteny informace z rezervačního systému\). |
+| **Nalezeny lety** | Zobrazení ANO/NE, zda byly u promoakce nalezeny v rezervačním systému dostupné lety. |
 | **Sedí cena** | Zobrazení ANO/NE, zda byla vyhledána cena v požadovaném rozsahu. |
 
-## 5. Obecná omezení Promoakce
+## 5. Obecná omezení promoakce
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem212.png)
 
@@ -112,15 +112,15 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
   </tbody>
 </table>## 6. Směr cesty tam a zpět
 
-Každá část cesty musí být nadefinována. Pro jednoduchá nepřestupní spojení, např. VIE-CDG, je nutné v sekci "Cesta tam" definovat spojení dle obrázku níže. Pokud je spojení přestupní, např. VIE-FRA-CDG, je nutné nejdříve nadefinovat spojení VIE-FRA a klikem na tlačítko "Přidat další segment letu pro stejný směr" přidat pole, do kterého vyplníte druhý úsek cesty FRA-CDG.
+Každá část cesty musí být nadefinována. Pro jednoduchá nepřestupní spojení, např. VIE-CDG, je nutné v sekci "Cesta tam" definovat spojení dle obrázku níže. Pokud je spojení přestupní, např. VIE-FRA-CDG, je nutné nejdříve nadefinovat spojení VIE-FRA a klikem na tlačítko **Přidat další segment letu pro stejný směr** přidat pole, do kterého vyplníte druhý úsek cesty FRA-CDG.
 
-Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zpět lze vytvořit za pomoci tlačítek "Přidat cestu zpět" pro stejný systém zadávání, jako je tomu pro "Cesta tam", nebo za pomoci tlačítka "Vytvořit automaticky cestu zpět", která vytvoří automaticky zrcadlově zadání pro cestu zpět.
+Pokud je cesta zpáteční, je třeba to samé pro sekci **Cesta zpět** Cesta zpět lze vytvořit za pomoci tlačítek **Přidat cestu zpět** pro stejný systém zadávání, jako je tomu pro **Cesta tam**, nebo za pomoci tlačítka **Vytvořit automaticky cestu zpět**, která vytvoří automaticky zrcadlově zadání pro cestu zpět.
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem213.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Počátek cesty \(IATA kód\)** | ATA kód odletového místa. |
+| **Počátek cesty \(IATA kód\)** | IATA kód odletového místa. |
 | **Cíl cesty \(IATA kód\)** | IATA kód cíle cesty. |
 | **Marketingový dopravce** | Dopravce uvedený na availabilitě. |
 | **Bookovací třídy** | Bookovací třída \(RBD\). |
@@ -143,14 +143,14 @@ Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zp
 | **Inhibit status link** | Je-li zaškrtnuto, není ani v případech, ve kterých je to možné, availabilita ověřována přímo u dopravce za pomocí tzv. seamless availability. Nezaškrtnutí může při zvýšené míře užití negativně ovlivnit poměr dotazování na dopravce oproti počtu rezervací a vyvolat sankce dopravce. |
 | **Posun + 1 den** | Je-li zaškrtnuto, pak je pro ověřování dostupnosti dotaz na následující segment letu pokládán o den později. Je využíváno ve speciálních případech dálkových letů. |
 
-### Jak Promoakce fungují? Zjednodušené schema
+### Jak promoakce fungují? Zjednodušené schéma
 
-1. Po kliku na „Spustit cache“ nebo v pravidelném nočním občerstvování dostupnosti Promoakcí se z nastavení sestaví kalendář pro cestu tam a zpět, ve kterých dnech je potřeba načíst informace o dostupnosti. Pro tento kalendář se zjistí dostupnost pro všechny dny.
+1. Po kliku na **Spustit cache** nebo v pravidelném nočním občerstvování dostupnosti promoakcí se z nastavení sestaví kalendář pro cestu tam a zpět, ve kterých dnech je potřeba načíst informace o dostupnosti. Pro tento kalendář se zjistí dostupnost pro všechny dny.
 2. Promoakce se zobrazí na webu a při prokliknutí se zobrazí stránka kalendářů, kde jsou vysvíceny dostupné dny, kde je dostupná zadaná třída a data nejsou omezena jinou podmínkou \(například AP\).
 3. Pokud zákazník vybere den v kalendáři pro cestu tam, aplikace překontroluje podle podmínek zadaných v zázemí, které dny pro cestu zpět jsou akceptovatelné. Ty pak nechá rozsvícené, ostatní zhasne.
-4. Po výběru i dne pro cestu zpět se provede ověření dostupnosti pro tuto přesnou kombinaci dní, Provede se ocenění a výsledná cena se porovná se zadanou v zázemí. Pokud bude cena vyšší o více jak 10 %, nebo nebude dostupnost, systém odpoví chybou. V opačném případě zákazník přejde na výběr konkrétních letů na další stránku.
+4. Po výběru i dne pro cestu zpět se provede ověření dostupnosti pro tuto přesnou kombinaci dní, provede se ocenění a výsledná cena se porovná se zadanou v zázemí. Pokud bude cena vyšší o více jak 10 % nebo nebude dostupnost, systém odpoví chybou. V opačném případě zákazník přejde na výběr konkrétních letů na další stránku.
 
-## Co překontrolovat, pokud zadaná Promoakce nefunguje správně?
+## Co překontrolovat, pokud zadaná promoakce nefunguje správně?
 
 ### **Existuje celé spojení na neutrální availabilitě?**
 
@@ -158,15 +158,15 @@ Např. zadáváte promoakci A20MAYPRGPTY.MAD/IB. Pokud takové spojení nenajdet
 
 ### **Není u vícesegmentové cesty posun o den?**
 
-Pokud je cesta vícesegmentová, může být nástup na druhý nebo třetí segment cesty nástup až další den. Pokud to tak je, je třeba tuto skutečnost zaškrtnout v sekci „Vazby“ checkboxem: „Posun +1 den:“
+Pokud je cesta vícesegmentová, může být nástup na druhý nebo třetí segment cesty nástup až další den. Pokud to tak je, je třeba tuto skutečnost zaškrtnout v sekci **Vazby** checkboxem **Posun +1 den**.
 
-### **Jsou pro Promoakci dostupné zadané knihovací třídy?**
+### **Jsou pro promoakci dostupné zadané knihovací třídy?**
 
 U některých nejnižších cen již nemusí být dostupné požadované třídy. Prosím překontrolujte stav otevření tříd na neutrální availabilitě.
 
 ### **Existuje tarif pro daného dopravce?**
 
-Pokud se podíváte v systému vstupem FD na FareDisplay, najdete tam zadaný FareBasis u správného kódu dopravce? Pokud by Farebasis patřil jinému než marketingovému dopravci, je třeba toto zadat do pole „Fare Basis patří dopravci:“.
+Pokud se podíváte v systému vstupem FD na Fare Display, najdete tam zadaný Fare Basis u správného kódu dopravce? Pokud by Fare Basis patřil jinému než marketingovému dopravci, je třeba toto zadat do pole **Fare Basis patří dopravci**.
 
 ### **Je možné nasimulovat rezervaci s oceněním přes terminál?**
 

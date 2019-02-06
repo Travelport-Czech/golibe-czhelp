@@ -1,14 +1,14 @@
 # Nabídka externích služeb
 
-Po dokončení rezervace letenky je možné navázat na libovolnou další externí službu přes tzv. deeplink. Příkladem může být například rent-car společnost, jejíž nabídka bude vytvořena přímo na data příletu do destinace a odletu zpět. Může být připravena ihned po dokončení rezervace letenky jako proklik, nebo iframe s výsledky.
+Po dokončení rezervace letenky je možné navázat na libovolnou další externí službu přes tzv. deeplink. Příkladem může být například půjčovna aut, jejíž nabídka bude vytvořena přímo na data příletu do destinace a odletu zpět. Může být připravena ihned po dokončení rezervace letenky jako proklik nebo iframe s výsledky.
 
-Dotaz se staví za pomocí tzv. placeholderů, které se vkládají na místo, kam mají přijít informace z rezervace.
+Dotaz se staví za pomoci tzv. placeholderů, které se vkládají na místo, kam mají přijít informace z rezervace.
 
 Například:
 
 `http://www.carbook.com/ELBanner.do?iataCode={itinerary.stream.1.destination}&amp;display=airplane&amp;affiliateCode=testAgency&amp;puDay={itinerary.stay.1.start.day}......`
 
-| Placeholder | Příklad vracené informace | Popis |
+| Placeholder | Příklad vrácené informace | Popis |
 | :--- | :--- | :--- |
 | **{language}** | cs | Kód jazykové verze |
 | **{reservation.locator}** | BRK5XA | Galileo rezervační kód |
@@ -39,5 +39,5 @@ Například:
 | **{passenger.1.age}** | 30 | Věk 1. cestujícího \(pokud není zadáno, doplní se 30\) |
 | **{passenger.1.birthdate}** | 1986-12-06 | Datum narození 1. cestujícího \(pokud není zadáno, doplní se pro věk 30\) |
 
-Vše vložíte přes Menu **Doprovodné texty**, kam můžete link vložit do typ textu: **Letenky - Text - Stránka úspěšná rezervace letenky**
+Vše vložíte přes Menu **Doprovodné texty**, kam můžete link vložit do typu textu **Letenky - Text - Stránka úspěšná rezervace letenky**.
 

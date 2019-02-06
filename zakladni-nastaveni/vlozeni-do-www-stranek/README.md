@@ -1,6 +1,6 @@
 # Vložení do www stránek
 
-GOL IBE funguje na našich serverech a pro implementaci potřebujete opravdu velice málo. Postačí, když si do svých www stránek vložíte vyhledávací formulář. Váši zákazníci si tak začnou vyhledávat na vašich www stránkách a další kroky už zajistíme my.
+GOL IBE funguje na našich serverech a pro implementaci potřebujete opravdu velice málo. Postačí, když si do svých webových stránek vložíte vyhledávací formulář. Váši zákazníci si tak začnou vyhledávat na vašich webových stránkách a další kroky už zajistíme my.
 
 Vkládat do svých www stránek můžete následující formuláře:
 

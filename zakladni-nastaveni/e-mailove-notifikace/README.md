@@ -1,26 +1,26 @@
 # E-mailové notifikace
 
-V menu **Notifikace** najdete nastavení e-mailových zpráv, které GOL automaticky odesílá.
+V menu **Notifikace** najdete nastavení e-mailových zpráv, které GOL IBE automaticky odesílá.
 
-Všechny notifikace, které používáte již máte přednastavené.
+Všechny notifikace, které používáte, již máte přednastavené.
 
 V přehledné tabulce nastavených notifikací uvidíte následující sloupce, které zobrazují, komu jsou e-maily doručovány.
 
 | **Komu** | Popis |
 | :--- | :--- |
 | **Zákazníkovi** | Doručováno klientovi, který vložil svou adresu během rezervačního procesu. |
-| **Dealerovi** | Doručováno dealerovi, jehož emailová adresa je nastavena v menu **Dealeři** |
+| **Dealerovi** | Doručováno dealerovi, jehož emailová adresa je nastavena v menu **Dealeři**. |
 | **Agentuře** | Doručováno agentuře na adresu uvedenou v **Agentura -&gt; Nastavení agentury**. |
-| **Konfigurátorovi** | Doručováno administrátorovi systému \(jen pro účely ladění, nebo konzultací\) |
+| **Konfigurátorovi** | Doručováno administrátorovi systému \(jen pro účely ladění, nebo konzultací\). |
 
 V případě zájmu o změnu tohoto nastavení klikněte na **DORUČENÍ**.
 
 {% hint style="warning" %}
-GOL IBE odesílá vaším jménem zákazníkům e-mailová potvrzení. Například jste agentura abtravel a zákazník dostane potvrzení o rezervaci z emailové adresy info@abtravel.com.
+GOL IBE odesílá Vaším jménem zákazníkům e-mailová potvrzení. Například jste agentura abtravel a zákazník dostane potvrzení o rezervaci z emailové adresy info@abtravel.com.
 
-Protože ale v dnešní době maximální ochrany před spamem můžete mít na emaily z vaší strany nasazeny různé ochrany, nemusí být emaily od GOL IBE, zasílané vaším jménem, dobře doručovány zákazníkům.
+Protože ale v dnešní době maximální ochrany před spamem můžete mít na e-maily ze své strany nasazeny různé ochrany, nemusí být e-maily z GOL IBE zasílané Vaším jménem dobře doručovány zákazníkům.
 
-Proto je potřeba mít nastaveny vaše emaily / doménu následujícím způsobem:
+Proto je potřeba mít nastaveny své e-maily / doménu následujícím způsobem:
 
 Pokud používáte SPF, pak v nastavení domény povolte náš mailserver:
 

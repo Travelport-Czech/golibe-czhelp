@@ -3,7 +3,7 @@
 V zázemí přejděte do menu **Ceny -&gt; Servisní poplatky letenek - agentura**
 
 {% hint style="warning" %}
-Pokud využíváte Dealerský prodej, nebo potřebujete definovat servisní poplatek na zákazníka, čtěte detaily k **Servisní poplatky letenek - dealer** na závěr textu.
+Pokud využíváte Dealerský prodej nebo potřebujete definovat servisní poplatek na zákazníka, čtěte detaily k **Servisní poplatky letenek - dealer** na závěr textu.
 {% endhint %}
 
 Pro přidání nového servisního poplatku klikněte na tlačítko:
@@ -20,7 +20,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 | :--- | :--- |
 | **Transportní společnost** | Výběr let. společnosti, pro kterou zadávané pravidlo platí |
 | **Konektor** | Letenky Galileo - poplatky pro letenky pocházející z GDS Galileo |
-|  | Letenky Travelfusion - poplatky pro letenky pocházející od TravelFusion |
+|  | Letenky Travelfusion - poplatky pro letenky pocházející od Travelfusion |
 
 ## 2. Zvolte podmínky platnosti
 
@@ -38,7 +38,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 | **Typ** | OW+RT - platí pro jednosměrné i zpáteční cesty |
 |  | OW - platí jen pro jednosměrné cesty \(OneWay\) |
 |  | RT - platí jen pro zpáteční cesty \(Return\) |
-|  | Tato pravidla nejsou aplikovatelná pro vícefázové cesty, nebo Open Jaw. Pro ty je nutné využívat pouze Obecné podmínky platnosti \(viz. výše\). |
+|  | Tato pravidla nejsou aplikovatelná pro vícefázové cesty, nebo open-jaw. Pro ty je nutné využívat pouze Obecné podmínky platnosti \(viz. výše\). |
 | **Počátek cesty \(IATA kód\)** | Odkud se letí |
 | **Cíl cesty \(IATA kód\)** | Kam se letí / Odkud se letí zpět |
 
@@ -50,7 +50,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 | **Typ** | OW+RT - platí pro jednosměrné i zpáteční cesty |
 |  | OW - platí jen pro jednosměrné cesty \(OneWay\) |
 |  | RT - platí jen pro zpáteční cesty \(Return\) |
-|  | Tato pravidla nejsou aplikována pro vícefázové cesty, nebo Open Jaw. Pro ty je nutné využívat pouze Obecné podmínky platnosti \(viz. výše\). |
+|  | Tato pravidla nejsou aplikována pro vícefázové cesty, nebo open-jaw. Pro ty je nutné využívat pouze Obecné podmínky platnosti \(viz. výše\). |
 
 ## 3. Stanovte výši servisního poplatku
 
@@ -66,10 +66,10 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 | **Pole** | Popis |
 | :--- | :--- |
 | **Stanovená výše poplatku** | Fixní poplatek podle ceny letenky - pevná částka připočítaná za podmínky, že se cena pohybuje v nastaveném rozpětí. |
-| **Fixní poplatek** | Číselná hodnota poplatku |
+| **Fixní poplatek** | Číselná hodnota poplatku. |
 | **Pro letenky v ceně nad** | Spodní hranice ceny letenky. Při překročení bude aplikován poplatek. |
 | **Pro letenky v ceně do \(vč.\)** | Horní hranice ceny letenky \(včetně\). Při překročení této částky přestává být aplikován poplatek. |
-| **Rozsah cen zahrnuje taxy** | Ceny letenek jsou uvažovány včetně tax |
+| **Rozsah cen zahrnuje taxy** | Ceny letenek jsou uvažovány včetně tax. |
 
 {% hint style="warning" %}
 Poznámka: Platí vždy nejkonkrétnější pravidlo. Pokud máte například vloženo obecné pravidlo bez zvolené letecké společnosti a současně pravidlo se specifikovanou společností, bude použito to druhé v případě, že bude letecká společnost souhlasit.
@@ -77,7 +77,7 @@ Poznámka: Platí vždy nejkonkrétnější pravidlo. Pokud máte například vl
 
 ## Nastavení poplatků pro dealery a přihlášené uživatele
 
-Pokud využíváte Dealerský prodej, nebo potřebujete definovat servisní poplatek na konkrétního zákazníka, pak v přejděte do menu **Ceny -&gt; Servisní poplatky letenek - dealer**
+Pokud využíváte Dealerský prodej, nebo potřebujete definovat servisní poplatek na konkrétního zákazníka, pak přejděte do menu **Ceny -&gt; Servisní poplatky letenek - dealer**
 
 Najdete zde shodná nastavení, jako pro **Servisní poplatky letenek - agentura** a něco navíc.
 
@@ -89,7 +89,7 @@ a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný serv
 
 | Pole | Popis |
 | :--- | :--- |
-| **Dealer** | Výběr pro kterého dealera nastavení platí |
+| **Dealer** | Výběr, pro kterého dealera nastavení platí |
 
 **b\) Máte registrovaného zákazníka**, kterému chcete přiřadit jeho vlastní servisní poplatek. Obvykle se to používá v situacích, kdy máte nějakého důležitého zákazníka \(nebo firmu\), se kterým máte dohodnuty speciální podmínky a speciální výši servisních poplatků.
 
@@ -101,6 +101,6 @@ a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný serv
 |  | Platné pro zvoleného - konkrétní registrovaný zákazník, kterého je možné vybrat ze seznamu. |
 
 {% hint style="warning" %}
-Výsledná částka poplatku je součtem nastavení od agentury a od dealera. Pokud chcete nastavovat poplatky pouze dealerům a nenastavovat si žádnou agenturní základní provizi, nastavte si v Servisní poplatky letenek - agentura výchozí hodnotu poplatku 0.
+Výsledná částka poplatku je součtem nastavení od agentury a od dealera. Pokud chcete nastavovat poplatky pouze dealerům a nenastavovat si žádnou agenturní základní provizi, nastavte si v **Servisní poplatky letenek - agentura** výchozí hodnotu poplatku 0.
 {% endhint %}
 

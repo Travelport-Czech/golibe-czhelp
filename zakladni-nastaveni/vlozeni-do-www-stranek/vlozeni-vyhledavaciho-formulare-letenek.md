@@ -14,22 +14,22 @@ Příklad zobrazení při změnách velikosti okna \(na mobilních zařízeních
 
 HTML balíček si stáhnete z administračního zázemí:
 
-a\) pokud máte agenturní účet, tak v sekci **Dealeři** -&gt; Vyberte dealera \(web\) o kterého vám jde a klikněte na tlačítko: **Detail,** dále ****tlačítko **Nastavení Frontendu** a klikněte na odkaz: "**Statické HTML ke stažení**".
+a\) pokud máte agenturní účet, tak v sekci **Dealeři** vyberte dealera \(web\), o kterého Vám jde, a klikněte na tlačítko **Detail,** dále ****tlačítko **Nastavení Frontendu** a klikněte na odkaz **Statické HTML ke stažení**.
 
-b\) pokud máte dealerský účet, tak přímo v sekci **Dealeři** -&gt; **Nastavení Frontendu** -&gt; Odkaz: "**Statické HTML ke stažení**".
+b\) pokud máte dealerský účet, tak přímo v sekci **Dealeři** -&gt; **Nastavení Frontendu** -&gt; odkaz **Statické HTML ke stažení**.
 
-Tento formulář obsahuje HTML, CSS, obrázky a patřičné scriptování pro implementaci přímo do vaší stránky s plnou funkcionalitou našeptávače destinací. Můžete si jej také libovolně upravovat.
+Tento formulář obsahuje HTML, CSS, obrázky a patřičné scriptování pro implementaci přímo do Vaší stránky s plnou funkcionalitou našeptávače destinací. Můžete si jej také libovolně upravovat.
 
 ## 2. iframe
 
-Další možností je iframe, který vyniká snadnou implementací, má ale své nevýhody. Pokud například u vícefázových letů bude zákazník přidávat další a další části cesty, bude se formulář natahovat a musíte tedy nechat na stránce dostatek místa, nebo umožnit skrolování. To ale není moc hezké.
+Další možností je iframe, který vyniká snadnou implementací, má ale své nevýhody. Pokud například u vícefázových letů bude zákazník přidávat další a další části cesty, bude se formulář natahovat, a musíte tedy nechat na stránce dostatek místa, nebo umožnit skrolování. To ale není moc hezké.
 
 Příklad implementace následuje.
 
 {% hint style="info" %}
-**Nezapomeňte doplnit i sekce "&lt;meta name="viewport".." a "&lt;style..", které jsou důležité pro správné rozměry a responsivní zobrazení.**
+**Nezapomeňte doplnit i sekce "&lt;meta name="viewport".." a "&lt;style..", které jsou důležité pro správné rozměry a responzivní zobrazení.**
 
-**Namísto XXXXXX \(níže\) doplňte vaše URL.**
+**Namísto XXXXXX \(níže\) doplňte svou URL.**
 {% endhint %}
 
 ```markup
@@ -67,15 +67,15 @@ Příklad implementace následuje.
 
 ## **Pro zvídavé: Úprava výchozího nastavení formuláře**
 
-Pro obě výše uvedené varianty platí, že parametry vyhledávacího formuláře lze předvolit a klient je tedy uvidí již předvyplněné.
+Pro obě výše uvedené varianty platí, že parametry vyhledávacího formuláře lze předvolit, a klient je tedy uvidí již předvyplněné.
 
 Nejjednodušší způsob, jak se dozvědět způsob, jakým link vyrobit, je:
 
 * Nastavit vyhledávací formulář do takové podoby, v jaké chcete mít předvoleno vyhledávání.
 * Vyhledat a dostat se na stránku výsledků vyhledávání.
-* Na tlačítku "Nové hledání", které by Vás vrátilo na vyhledávání od začátku, kliknout pravým tlačítkem myši a zvolit zkopírování odkazu.
+* Na tlačítku **Nové hledání**, které by Vás vrátilo na vyhledávání od začátku, kliknout pravým tlačítkem myši a zvolit zkopírování odkazu.
 
-Příklady toho co získáte:
+Příklady toho, co získáte:
 
 `https://xxxx.golibe.com/index.php?action=vFlights&flights[0][origin]=PRG&flights[0][destination]=LON&flights[0][departureDate]=2013-01-09&flights[1][origin]=LON&flights[1][destination]=PRG&flights[1][departureDate]=2013-01-16&searchType=FromFour&travelers[0]=ADT&dateVariants=exact&returnTicket=on&step=one2`
 

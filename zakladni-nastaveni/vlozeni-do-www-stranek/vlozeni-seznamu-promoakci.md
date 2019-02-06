@@ -1,22 +1,22 @@
 # Vložení seznamu promoakcí
 
-Podrobnosti o implementaci speciálních nabídek najdete taktéž na [https://xxxx.golibe.com/gol-js/](https://xxxx.golibe.com/gol-js/), kde xxxx je označení URL pro vaši implementaci GOL IBE. Máte několik možností, jak implementovat:
+Podrobnosti o implementaci speciálních nabídek najdete taktéž na [https://xxxx.golibe.com/gol-js/](https://xxxx.golibe.com/gol-js/), kde xxxx je označení URL pro Vaši implementaci GOL IBE. Máte několik možností, jak implementovat:
 
 ## 1. Jednoduché vkládání
 
-Pro jednoduché vložení postačí použít následující script. V případě zájmu o jiný jazyk je třeba tento jazyk zavolat názvem souboru se scriptem. Například: **gol-js-loader\_en.js** pro Angličtinu a **gol-js-loader\_ru.js** pro Ruštinu apod.
+Pro jednoduché vložení postačí použít následující script. V případě zájmu o jiný jazyk je třeba tento jazyk zavolat názvem souboru se scriptem. Například: **gol-js-loader\_en.js** pro angličtinu a **gol-js-loader\_ru.js** pro ruštinu apod.
 
 ```markup
 <script type="text/javascript" src="https://xxxx.golibe.com/gol-js/gol-js-loader_en.js"></script>
 ```
 
 {% hint style="warning" %}
-Pokud by se v HTML našel prvek s id="GOLJS\_SpecialOffers", bude seznam Promoakcí vložen do něho místo za loadovací script. Pozor, toto řešení nepřepíná jazyky - destinace a státy se budou vracet v defaultním jazyce.
+Pokud by se v HTML našel prvek s id="GOLJS\_SpecialOffers", bude seznam promoakcí vložen do něho místo za loadovací script. Pozor, toto řešení nepřepíná jazyky - destinace a státy se budou vracet v defaultním jazyce.
 {% endhint %}
 
-## 2. Konfigurované vkládání, selektivní výběr zobrazených Promoakcí, vytažení Promoakcí podle názvu.
+## 2. Konfigurované vkládání, selektivní výběr zobrazených promoakcí, vytažení promoakcí podle názvu
 
-V tomto případě je vkládán seznam Promoakcí za pomoci následujícího konfigurovatelného scriptu:
+V tomto případě je vkládán seznam promoakcí za pomoci následujícího konfigurovatelného scriptu:
 
 ```markup
 <script type="text/javascript">
@@ -33,7 +33,7 @@ V tomto případě je vkládán seznam Promoakcí za pomoci následujícího kon
 ```
 
 Příklad:  
-Nejjednodušší případ vkládající do stránky pouze jednu Promoakci s názvem \(množinou\): "PromoakcePoEvrope"
+Nejjednodušší případ vkládající do stránky pouze jednu promoakci s názvem \(množinou\): "PromoakcePoEvrope"
 
 ```markup
 <html>
@@ -55,7 +55,7 @@ Nejjednodušší případ vkládající do stránky pouze jednu Promoakci s náz
 
 Názvů \(množin\) promoakcí je možné vkládat do scriptu více najednou. Názvy \(množiny\) se vkládají přes administrační zázemí v sekci: **Ceny -&gt; Promoakce - letenky \(rozšířené\)**
 
-Zrovna tak každá Promoakce může mít nastaveno více Názvů \(množin\), je tedy možné na webu zobrazovat jen chtěné skupiny:
+Zrovna tak každá promoakce může mít nastaveno více názvů \(množin\), je tedy možné na webu zobrazovat jen chtěné skupiny:
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
@@ -64,7 +64,7 @@ Zrovna tak každá Promoakce může mít nastaveno více Názvů \(množin\), je
 Poslední možností je stáhnout si seznam promoakcí a zpracovat si ho podle svých představ.
 
 ```http
-http://xxxx.golibe.com/json/special-offers-list/en //kde xxxx je URL vašeho GOL IBE a /en je kód jazyka
+http://xxxx.golibe.com/json/special-offers-list/en //kde xxxx je URL Vašeho GOL IBE a /en je kód jazyka
 ```
 
 

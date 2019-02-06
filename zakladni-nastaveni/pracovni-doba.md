@@ -10,9 +10,9 @@ Pro jednotlivé dny lze nastavit pracovní dobu s polední přestávkou, napří
 
 ## Logika nastavení pracovní doby
 
-Nastavení slouží jako ochrana před situací, kdy si klient zarezervuje letenku v 17:35 ale v 17:30 již skončila pracovní doba agentury. Letenku je třeba vystavit téhož dne, ale již ji nemá kdo vystavit. To samé platí pro víkendy a dny volna obecně. Pracovní doba je vždy porovnávána s nejpozdějším datem pro vystavení letenky. Nejpozdější datum vystavení, zobrazované zákazníkům, je určeno na základě podmínek tarifu \(nastavením může být omezeno\). Díky nastavení pracovní doby je ale omezeno na den, kdy má agentura pracovní dobu tak, aby se vystavení stihlo. 
+Nastavení slouží jako ochrana před situací, kdy si klient zarezervuje letenku v 17:35, ale v 17:30 již skončila pracovní doba agentury. Letenku je třeba vystavit téhož dne, ale již ji nemá kdo vystavit. To samé platí pro víkendy a dny volna obecně. Pracovní doba je vždy porovnávána s nejpozdějším datem pro vystavení letenky. Nejpozdější datum vystavení zobrazované zákazníkům je určeno na základě podmínek tarifu \(nastavením může být omezeno\). Díky nastavení pracovní doby je ale omezeno na den, kdy má agentura pracovní dobu tak, aby se vystavení stihlo. 
 
-Pro správné fungování je ještě třeba definovat u jednotlivých způsobů plateb, kolik času v rámci pracovní doby je potřeba na vyřízení obchodního případu. Výchozí nastavení je 1 hodina. Tím můžete ovlivnit, které způsoby plateb se budou nabízet, pokud se blíží nejpozdější datum vystavení. Pokud je toto datum určeno na den rezervace \(musí se vystavit "ihned"\), pak ostatním způsobům plateb mohu nastavit vyšší hodnotu a nebudou vůbec k dispozici pro zaplacení.
+Pro správné fungování je ještě třeba definovat u jednotlivých způsobů plateb, kolik času v rámci pracovní doby je potřeba na vyřízení obchodního případu. Výchozí nastavení je 1 hodina. Tím můžete ovlivnit, které způsoby plateb se budou nabízet, pokud se blíží nejpozdější datum vystavení. Pokud je toto datum určeno na den rezervace \(musí se vystavit "ihned"\), pak ostatním způsobům plateb můžete nastavit vyšší hodnotu, a nebudou vůbec k dispozici pro zaplacení.
 
 Může tedy dojít ke třem různým situacím:
 
@@ -22,9 +22,9 @@ Může tedy dojít ke třem různým situacím:
 
 ## Úpravy standardní pracovní doby - svátky apod.
 
-Do sekce Úprava pracovní doby se dostanete přes menu **Agentura -&gt; Úprava pracovní doby - jednorázová**
+Do sekce Úprava pracovní doby se dostanete přes menu **Agentura -&gt; Úprava pracovní doby - jednorázová**.
 
-Slouží k definování výjimek z nastavené Pracovní doby, tj. definuje svátky a jiné dny, kdy agentura nepracuje. V současné době neexistuje číselník, který by upravoval státní svátky. Pokud agentura potřebuje tyto možnosti ošetřit, pak je nutné svátky ručně zadat.
+Slouží k definování výjimek z nastavené pracovní doby, tj. definuje svátky a jiné dny, kdy agentura nepracuje. V současné době neexistuje číselník, který by upravoval státní svátky. Pokud agentura potřebuje tyto možnosti ošetřit, pak je nutné svátky ručně zadat.
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem157.png)
 

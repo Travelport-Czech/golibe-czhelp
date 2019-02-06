@@ -10,14 +10,14 @@ Edit/Nová preference
 
 | Pole | Popis |
 | :--- | :--- |
-| **Agentura** | Agentura, pro kterou platí preference |
+| **Agentura** | Agentura, pro kterou platí preference. |
 | **Konektor** | Na jakém konektoru se má preference použít. |
-| **Typ výchozí destinace** | Typ odletové destinace, itinerář lze zvolit buď podle typu destinace nebo přímým zadáním IATA kódu – řádek níže. O typech destinací více viz kapitola 7.5 |
-| **Výchozí destinace** | IATA kód odletové destinace |
-| **Typ cílové destinace** | Typ cílové destinace, itinerář lze zvolit buď podle typu destinace nebo přímým zadáním IATA kódu – řádek níže. O typech destinací více viz kapitola 7.5 |
-| **Cílová destinace** | IATA kód cílové destinace |
+| **Typ výchozí destinace** | Typ odletové destinace. Itinerář lze zvolit buď podle typu destinace nebo přímým zadáním IATA kódu – řádek níže. O typech destinací více viz kapitola 7.5. |
+| **Výchozí destinace** | IATA kód odletové destinace. |
+| **Typ cílové destinace** | Typ cílové destinace, itinerář lze zvolit buď podle typu destinace nebo přímým zadáním IATA kódu – řádek níže. O typech destinací více viz kapitola 7.5. |
+| **Cílová destinace** | IATA kód cílové destinace. |
 | **Zpáteční let** | Preference se použije pouze pro zpáteční let. |
-| **Kódy preferovaných společností** | Kód letecké společnosti, která se má preferovat, v případě více společností oddělovat čárkou. |
+| **Kódy preferovaných společností** | Kód letecké společnosti, která se má preferovat \(v případě více společností oddělovat čárkou\). |
 
 #### Detail preference
 
@@ -26,6 +26,6 @@ Edit/Nová preference
 | Pole | Popis |
 | :--- | :--- |
 | **Preferované společnosti** | Zobrazuje nastavení pravidla pro preferované společnosti. |
-| **Statistika** | Zobrazuje se statistika použití pravidla. Statistka se resetuje při uložení změn v pravidle. \(statistiku můžete resetovat i uložením pravidla bez provedených změn\) |
+| **Statistika** | Zobrazuje se statistika použití pravidla. Statistka se resetuje při uložení změn v pravidle. Statistiku můžete resetovat i uložením pravidla bez provedených změn\). |
 | **Historie** | Při změně pravidla se aktuální statistiky uloží do Historie, včetně původních hodnot nastavení pravidla. |
 

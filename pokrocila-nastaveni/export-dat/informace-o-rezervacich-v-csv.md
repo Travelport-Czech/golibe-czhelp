@@ -2,7 +2,7 @@
 
 Export dat CSV si můžete vygenerovat v menu **Statistiky** pod položkou **Rezervace letenek v CSV**.
 
-Ve vyexportovaném souboru, najdete následující sloupce \(informace oddělené čárkou\):
+Ve vyexportovaném souboru najdete následující sloupce \(informace oddělené čárkou\):
 
 | Název | Co představuje |
 | :--- | :--- |
@@ -12,11 +12,11 @@ Ve vyexportovaném souboru, najdete následující sloupce \(informace oddělen�
 | Traveler | Počet cestujících mimo kojenců |
 | Infants | Počet kojenců v rezervaci |
 | Agency | Jméno agentury |
-| Agency country | Zěme ze které pochází agentura |
+| Agency country | Zěme, ze které pochází agentura |
 | Dealer | Jméno dealera |
 | Reservation date | Datum rezervace |
-| Reservation year | Rok ve kterém byla vytvořena rezervace |
-| Reservation month | Měsíc ve kterém byla vytvořena rezervace |
+| Reservation year | Rok, ve kterém byla vytvořena rezervace |
+| Reservation month | Měsíc, ve kterém byla vytvořena rezervace |
 | From | Místo odletu - IATA kód letiště |
 | City from | Místo odletu - nadřazený IATA kód města |
 | Country from | Místo odletu - kód země ve které leží letiště |
