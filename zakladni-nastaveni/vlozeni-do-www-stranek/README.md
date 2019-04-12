@@ -7,7 +7,7 @@ Vkládat do svých www stránek můžete následující formuláře:
 1. [Vyhledávací formulář letenek](vlozeni-vyhledavaciho-formulare-letenek.md)
 2. [Seznam letenkových promoakcí](vlozeni-seznamu-promoakci.md)
 3. [Vyhledávací formulář ubytování](vlozeni-vyhledavaciho-formulare-ubytovani.md)
-4. Stránka pro přihlašování registrovaných uživatelů
+4. [Stránka pro přihlašování registrovaných uživatelů](stranka-pro-prihlasovani-zakazniku.md)
 
 
 

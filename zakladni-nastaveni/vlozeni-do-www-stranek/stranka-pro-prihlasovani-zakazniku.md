@@ -9,6 +9,6 @@ Můžete mít ale zájem o separátní stránku, kde se mohou uživatelé přihl
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
 {% hint style="info" %}
-GOL IBE lze nastavit tak, aby neumožňoval se registrovat a současně aby jej mohl používat jen regisrovaný klient \(tuto logovací stránku pak nelze obejít\).
+GOL IBE lze nastavit tak, aby neumožňoval se registrovat a současně aby jej mohl používat jen registrovaný klient \(tuto logovací stránku pak nelze obejít\).
 {% endhint %}
 
