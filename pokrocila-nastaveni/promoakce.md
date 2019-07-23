@@ -87,12 +87,15 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
       <th style="text-align:left"><b>Min/Max stay</b>
       </th>
       <th style="text-align:left">
-        <p>Pole pro upřesnění omezení letů. V pořadí:</p>
-        <p>1. pole – číslovka značící počet dnů, nebo text SU v případě, kdy je potřeba
+        <p>Pole pro up&#x159;esn&#x11B;n&#xED; omezen&#xED; let&#x16F;. V po&#x159;ad&#xED;:</p>
+        <p>1. pole &#x2013; &#x10D;&#xED;slovka zna&#x10D;&#xED;c&#xED; po&#x10D;et
+          dn&#x16F;, nebo text SU v p&#x159;&#xED;pad&#x11B;, kdy je pot&#x159;eba
           aplikovat pravidlo Sunday Rule.</p>
-        <p>2. pole (výběr) – upřesnění pro 1. pole, zda se jedná o dny či měsíce.</p>
-        <p>3. pole (výběr) – upřesnění celého pravidla, zda určuje minimální či maximální
-          počet dní / měsíců.</p>
+        <p>2. pole (v&#xFD;b&#x11B;r) &#x2013; up&#x159;esn&#x11B;n&#xED; pro 1.
+          pole, zda se jedn&#xE1; o dny &#x10D;i m&#x11B;s&#xED;ce.</p>
+        <p>3. pole (v&#xFD;b&#x11B;r) &#x2013; up&#x159;esn&#x11B;n&#xED; cel&#xE9;ho
+          pravidla, zda ur&#x10D;uje minim&#xE1;ln&#xED; &#x10D;i maxim&#xE1;ln&#xED;
+          po&#x10D;et dn&#xED; / m&#x11B;s&#xED;c&#x16F;.</p>
       </th>
     </tr>
   </thead>
