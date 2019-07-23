@@ -52,8 +52,6 @@ Pravidla Použít jako provizi i Použít jako slevu můžete používat dohroma
 |  | Nepovoleni vyjmenovaní - v itineráři nesmí být zastoupen žádný z vyjmenovaných dopravců. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 |  | Musí obsahovat všechny vyjmenované - v itineráři musí být zastoupeni **všichni** uvedení operující dopravci. Itinerář nesmí ****navíc obsahovat ještě nějakého dalšího. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 
-![](../.gitbook/assets/image%20%287%29.png)
-
 ## 3.  Nastavte výši provize
 
 ![](../.gitbook/assets/image%20%2817%29.png)
