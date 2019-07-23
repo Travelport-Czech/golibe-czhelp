@@ -26,6 +26,10 @@ Pokud používáte SPF, pak v nastavení domény povolte náš mailserver:
 
 **v=spf1 mx mx:golibe.com ~all**
 
+Pokud má již vaše doména SPF záznam, musíte přidat SPF do existujícího záznamu následujícím způsobem.
+
+**include:golibe.com**
+
 Do domény si vždy přidejte CNAME záznam:
 
 **golibe.\_domainkey.agentura.cz CNAME golibe.\_domainkey.golibe.com**
