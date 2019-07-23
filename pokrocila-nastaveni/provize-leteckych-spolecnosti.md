@@ -1,56 +1,40 @@
-# Provize leteckých společností
+# Provize leteckých společností a slevy
 
 Letecké společnosti sice čím dál méně, avšak stále poskytují cestovním agenturám provize z prodeje letenek. Provize můžete snadno nastavit, a ty pak budou automaticky vkládány do rezervací.
 
-V zázemí přejděte do menu **Ceny -&gt; Provize leteckých společností**.
+Ve stejném nastavení můžete určovat i slevy. Ty mohou fungovat nezávisle na provizích, nebo můžete chtít nastavovat slevu z letenek ve výši získané provize. Proto máme tato dvě nastavení sloučena, ale můžete je využívat i nezávisle.
 
-Na stránce uvidíte přehled již nastavených servisních poplatků, které můžete smazat klikem na **SMAŽ**, nebo upravit klikem na **EDIT**.
+V zázemí přejděte do menu **Ceny -&gt; Provize a slevy**.
 
-Pro přidání nového servisního poplatku klikněte na tlačítko:
+Na stránce uvidíte přehled již nastavených pravidel, které můžete smazat klikem na **SMAŽ**, nebo upravit klikem na **EDIT**.
 
-![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/AddCommission.png)
+Pro přidání nového pravidla klikněte na tlačítko:
 
-## 1. Zvolte parametry provize
+![](../.gitbook/assets/image%20%2836%29.png)
 
-![](../.gitbook/assets/image%20%2810%29.png)
+## 1. Zvolte základní parametry
+
+![](../.gitbook/assets/image%20%2816%29.png)
 
 | Pole | Popis |
+| :--- | :--- |
+| **Priorita** | Priority se uplatní, pokud je nastaveno více různých provizí na konkrétní leteckou společnosti. GOL IBE pak postupuje následujícím způsobem: 1. Vybere všechna pravidla pro validačního dopravce z rezervace, 2. Seřadí pravidla dle nastavené "Priority", 3. Vezme pravidlo s nejvyšší prioritou \(vyšší číslo = vyšší priorita\) a zkontroluje, že vyhovuje rezervaci. Pokud ano, tak zapíše příslušnou provizi do rezervace. Pokud ne, pokračuje dalším pravidlem dle priority. |
+| **Použít jako provizi** | Pravidlo je nastaveno pro výběr provize od letecké společnosti. |
+| **Použít jako slevu** | Pravidlo je nastaveno pro nastavení slevy. |
+
+{% hint style="info" %}
+Pravidla Použít jako provizi i Použít jako slevu můžete používat dohromady i zvlášť. Můžete chtít nastavovat slevu z letenek ve výši získané provize a pak se Vám hodí to nastavit jedním pravidlem.
+{% endhint %}
+
+## 2.  Zvolte leteckou společnost
+
+![](../.gitbook/assets/image%20%2832%29.png)
+
+|  | Popis |
 | :--- | :--- |
 | **Validační dopravce** | Dopravce, na kterého je vystavena letenka. |
-| **Místo odletu & Cíl cesty** |  |
 
-![](../.gitbook/assets/image%20%2815%29.png)
-
-| Pole | Popis |
-| :--- | :--- |
-| **Obousměrné** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-PRG. |
-
-![](../.gitbook/assets/image%20%2821%29.png)
-
-| **Pole** | Popis |
-| :--- | :--- |
-| **Místo odletu & Cíl cesty** | Bez omezení - pro jakékoliv odletové místo a cíl cesty |
-|  | IATA kód - IATA kód destinace |
-|  | Typ destinace - světadíl a jiné ustálené množiny destinací |
-|  | Stát |
-
-![](../.gitbook/assets/image%20%282%29.png)
-
-| **Pole** | Popis |
-| :--- | :--- |
-| **Typ provize** | Fixní částka - pevná částka provize v měně agentury |
-|  | Procenta - procentuální částka provize vypočítávaná z výše tarifu |
-
-![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/commission8.png)
-
-![](../.gitbook/assets/image%20%2834%29.png)
-
-| **Pole** | Popis |
-| :--- | :--- |
-| **Knihovací třída \(RBD\)** | Knihovací třídy, které smí být v rezervaci, aby pravidlo platilo. |
-|  |  |
-
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -59,7 +43,7 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 |  | Pouze validační dopravce - pravidlo se uplatní jen v případě, že je v itineráři zastoupen pouze validační dopravce. |
 |  | Pouze jiní, než je validační dopravce - pravidlo se uplatní jen v případě, že v itineráři není zastoupen validační dopravce. |
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -68,15 +52,34 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 |  | Nepovoleni vyjmenovaní - v itineráři nesmí být zastoupen žádný z vyjmenovaných dopravců. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 |  | Musí obsahovat všechny vyjmenované - v itineráři musí být zastoupeni **všichni** uvedení operující dopravci. Itinerář nesmí ****navíc obsahovat ještě nějakého dalšího. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
+
+## 3.  Nastavte výši provize
+
+![](../.gitbook/assets/image%20%2817%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Priorita** | Priority se uplatní, pokud je nastaveno více různých provizí na konkrétní leteckou společnosti. GOL IBE pak postupuje následujícím způsobem: 1. Vybere všechna pravidla pro validačního dopravce z rezervace, 2. Seřadí pravidla dle nastavené "Priority", 3. Vezme pravidlo s nejvyšší prioritou \(vyšší číslo = vyšší priorita\) a zkontroluje, že vyhovuje rezervaci. Pokud ano, tak zapíše příslušnou provizi do rezervace. Pokud ne, pokračuje dalším pravidlem dle priority. |
+| **Typ provize** | Fixní částka - pevná částka provize v měně agentury. |
+|  | Procenta - procentuální částka provize vypočítávaná z výše tarifu. |
 
-## 2. Zvolte typ cesty
+## 4.  Zvolte směrování
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
+
+![](../.gitbook/assets/image%20%2822%29.png)
+
+| **Pole** | Popis |
+| :--- | :--- |
+| **Místo odletu & Cíl cesty** | Bez omezení - pro jakékoliv odletové místo a cíl cesty. |
+|  | IATA kód - IATA kód destinace. |
+|  | Typ destinace - světadíl a jiné ustálené množiny destinací. |
+|  | Stát |
+| **Oba směry** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-PRG. |
+
+## 5. Zvolte typ cesty
+
+![](../.gitbook/assets/image%20%289%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -84,14 +87,25 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 | **Zpáteční lety** | Při zaškrtnutí se pravidlo uplatní jen na zpáteční lety. |
 | **Jednosměrné lety & Zpáteční lety** | Při zaškrtnutí obou pravidel je pravidlo aplikováno pro oba druhy cest. |
 
-## 3. Zvolte období platnosti
+## 6. Zvolte knihovací třídy a typy pasažérů
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| Provizi lze uplatnit od-do | Nastavení, v jakém období je pravidlo pro provizi aktivní. |
-| Cesta tam \(zpět\) možná od-do | Nastavení povoleného rozsahu dat, ve kterých je uskutečněná cesta. |
+| **Použití seznamu tříd** | Alespoň jedna z uvedených tříd musí být v itineráři |
+|  | Itinerář nesmí obsahovat jiné než uvedené třídy |
+| **Knihovací třída RBD** | Písmena označující třídy. Při více záznamech oddělit čárkou \(např.: U,T,Q\) |
+| **Platí pouze pro typy pasažérů** | Kódy typů pasažerů, pro které má pravidlo platit \(např.:ADT,YTH,INF\) |
+
+## 7. Zvolte období platnosti
+
+![](../.gitbook/assets/image%20%2842%29.png)
+
+| Pole | Popis |
+| :--- | :--- |
+| **Provizi lze uplatnit od-do** | Nastavení, v jakém období je pravidlo pro provizi aktivní. |
+| **Cesta tam \(zpět\) možná od-do** | Nastavení povoleného rozsahu dat, ve kterých je uskutečněná cesta. |
 
 ## Jak pravidla otestovat?
 

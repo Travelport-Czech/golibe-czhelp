@@ -8,13 +8,13 @@ Pokud využíváte Dealerský prodej nebo potřebujete definovat servisní popla
 
 Pro přidání nového servisního poplatku klikněte na tlačítko:
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 ## 1. Zvolte leteckou společnost
 
 Letecká společnost může zůstat nevyplněna, a v tom případě platí pravidlo pro všechny airlines.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -24,7 +24,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 
 ## 2. Zvolte podmínky platnosti
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -42,7 +42,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 | **Počátek cesty \(IATA kód\)** | Odkud se letí |
 | **Cíl cesty \(IATA kód\)** | Kam se letí / Odkud se letí zpět |
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -54,7 +54,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 
 ## 3. Stanovte výši servisního poplatku
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Najdete zde shodná nastavení, jako pro **Servisní poplatky letenek - agentura
 
 a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný servisní poplatek.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -93,7 +93,7 @@ a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný serv
 
 **b\) Máte registrovaného zákazníka**, kterému chcete přiřadit jeho vlastní servisní poplatek. Obvykle se to používá v situacích, kdy máte nějakého důležitého zákazníka \(nebo firmu\), se kterým máte dohodnuty speciální podmínky a speciální výši servisních poplatků.
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
